@@ -7,3 +7,9 @@ check_job_sauvegardes_oxibox_num.sh permet d’avoir un chiffre comme retour
   - 2 c’est une erreur
 
 check_job_sauvegardes_oxibox.sh permet d’avoir un texte explicatif sur la completion des sauvegardes
+
+Les 2 scripts sont à déployer dans le dossier externalscripts de Zabbix (en principe /usr/lib/zabbix/externalscripts/)
+Le fichier à analyser doit aussi être dans ce dossier.
+
+Dans Zabbix il faut ensuite faire la configuration : 
+  - 
